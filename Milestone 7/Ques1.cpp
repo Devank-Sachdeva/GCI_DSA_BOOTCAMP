@@ -1,7 +1,6 @@
 /*Write a C program to find one's complement of a binary number.*/
 
 #include <iostream>
-using namespace std;
 
 int main() {
     int size;
@@ -17,7 +16,3 @@ int main() {
     }
     return 0;
 }
-std::cout << "/* message */" << '\n';
-
-std::cout << "/* message */" << '\n';
-cout << "/* message23 */" << "\n" ;
