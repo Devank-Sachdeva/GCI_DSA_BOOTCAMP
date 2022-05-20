@@ -33,14 +33,3 @@ int main(){
     }
     return 0;
 }
-int mul[n1][n2];
-        printf("Resultant Matrix ->\n");
-        for(int i=0;i<n1;i++){
-            for(int j=0;j<n2;j++){
-                mul[i][j]=0;
-                for(int k=0;k<n2;k++){
-                    mul[i][j]+=arr1[i][k]*arr2[k][j];
-                }
-            printf("%d\t",mul[i][j]);
-            }
-        printf("\n");
